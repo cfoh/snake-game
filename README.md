@@ -32,10 +32,17 @@ The snake will get a reward after eating the food. It needs to make a series of 
 http://www.cs.rhul.ac.uk/~chrisw/thesis.html
 
 ## Install
-This project requires Python 3.8 with the pygame library installed, as well as Keras with Tensorflow backend.
+Clone the project by:
 ```bash
 git clone https://github.com/cfoh/snake-game.git
 ```
+
+This project can run on Python 3.7+ with the pygame library installed, as well as Keras with Tensorflow backend. The `requirements.txt` is produced based on Python 3.7.9 environment in Windows 7.
+```bash
+pip install pygame
+pip install tensorflow
+```
+Note that in Windows 7, tensorflow requires `Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019`. If you cannot run the pgoram and the message is to request you to install Microsoft Visual C++ Redistributable for Visual Studio, you can resolve the problem by installing it. You can download it from: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
 
 ## Run
 To run the game, executes in the folder:
@@ -58,6 +65,8 @@ To change to a Bot, modify `main.py` by uncommenting the corresponding algorithm
     #algo = AI_DQN()       # DQN - training mode
     #algo = AI_DQN(False)  # DQN - testing mode, no exploration
 ```
+
+If the program encounters problems importing `Adam` and `to_categorical`, read `ai_dqn.py` for a suggestion to solve the problems.
 
 ## Trained Data (for Q-Learning)
 The trained data (i.e. Q-table) will be stored in the following file. If one already exists, it will be overwritten.
