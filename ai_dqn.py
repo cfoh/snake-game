@@ -17,6 +17,13 @@ from keras.optimizers import Adam
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout
 from keras.utils import to_categorical
+
+## NOTE: use the following import for `Adam` and `to_categorical` instead if you encounter the following errors:
+##   ImportError: cannot import name 'adam' from 'keras.optimizers'
+##   ImportError: cannot import name 'to_categorical' from 'keras.optimizers'
+#from tensorflow.keras.optimizers import Adam
+#from tensorflow.keras.utils import to_categorical
+
 import random
 import numpy as np
 import collections
