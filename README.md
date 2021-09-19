@@ -19,7 +19,7 @@ http://www.cs.rhul.ac.uk/~chrisw/thesis.html
 ## Install
 This project requires Python 3.8 with the pygame library installed, as well as Keras with Tensorflow backend.
 ```bash
-git clone https://put.the.website.here/snake.git
+git clone https://github.com/cfoh/snake-game.git
 ```
 
 ## Run
