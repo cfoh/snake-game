@@ -48,7 +48,7 @@ The program is set to human player by default. Type the following to see availab
 python main.py --help
 ```
 
-To change to a Bot, modify main.py by uncommenting the corresponding algorithm to run:
+To change to a Bot, modify `main.py` by uncommenting the corresponding algorithm to run:
 ```python
     ## AI selector, pick one:
     algo = AI_Player()    # do nothing, let human player control
@@ -65,15 +65,13 @@ The trained data (i.e. Q-table) will be stored in the following file. If one alr
 q-table.json
 ```
 
-
-
 When launching, the program will read the following Q-table. To use the previously trained data, simply rename it to the following filename.
 ```
 q-table-learned.json
 ```
 
 It learned data is stored in JSON format, and it is a readabile text file containing a list of state-action pairs. We can read the file to understand how the AI makes its decision. For example:
-```
+```JSON
 q-table-learned.json
     ...
     "[<  v],[-1,+0,+0]": [
