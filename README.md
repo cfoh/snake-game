@@ -1,11 +1,26 @@
 # Deep Reinforcement Learning
 ## Project: Train AI to play Snake
-Table of Contents:
-- Introduction
-- Installation of Pyhton and important packages
-- Running the program
-- Managing the trained data
-- Can AI play a perfect game?
+
+<table>
+<tr>
+<th>Table of Contents</th>
+<th>Screenshot</th>
+</tr>
+<tr>
+<td valign="top">
+    <ul>
+        <li>Introduction</li>
+        <li>Installation of Pyhton and important packages</li>
+        <li>Running the program</li>
+        <li>Managing the trained data</li>
+        <li>Can AI play a perfect game?</li>
+    </ul>
+</td>
+<td>
+<img src="https://user-images.githubusercontent.com/51439829/133932300-15d554a7-159e-4d1e-9c7f-5f028a901743.gif" height="300">
+</td>
+</tr>
+</table>
 
 ## Introduction
 This is a training material for my undergraduate students who are relatively new to AI, but interested to learn reinforcement learning (RL). This material is prepared based on another online tutorial:
