@@ -42,7 +42,7 @@ This project can run on Python 3.7+ with the pygame library installed, as well a
 pip install pygame
 pip install tensorflow
 ```
-Note that in Windows 7, tensorflow requires `Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019`. If you cannot run the pgoram and the message is to request you to install Microsoft Visual C++ Redistributable for Visual Studio, you can resolve the problem by installing it. You can download it from: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
+Note that in Windows 7, tensorflow requires `Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019`. If you cannot run the program and the message is to request you to install Microsoft Visual C++ Redistributable for Visual Studio, you can resolve the problem by installing it. You can download it from: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
 
 ## Run
 To run the game, executes in the folder:
