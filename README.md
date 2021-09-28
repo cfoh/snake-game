@@ -104,5 +104,5 @@ weights-learned.hdf5
 ```
 
 ## Can DQN play a perfect game?
-This is an interesting question. The following youtube video seems to have the answer. The video explains the design of the system state and demonstrates the AI playing a perfect game with design:
+This is an interesting question. The following youtube video seems to have the answer. The video explains the design of the system state and demonstrates the AI playing a perfect game with the design:
 https://www.youtube.com/watch?v=vhiO4WsHA6c
