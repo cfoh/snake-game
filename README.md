@@ -79,7 +79,7 @@ When launching, the program will read the following Q-table. To use the previous
 q-table-learned.json
 ```
 
-It learned data is stored in JSON format, and it is a readabile text file containing a list of state-action pairs. We can read the file to understand how the AI makes its decision. For example:
+The learned data is stored in JSON format, and it is a readabile text file containing a list of state-action pairs. We can read the file to understand how the AI makes its decision. For example:
 ```JSON
 q-table-learned.json
     ...
