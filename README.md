@@ -1,5 +1,5 @@
-# Deep Reinforcement Learning
-## Project: Train AI to play Snake
+# Reinforcement Learning
+## Project: Training AI to play Snake Game
 
 <table>
 <tr>
