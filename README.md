@@ -105,7 +105,15 @@ weights-learned.hdf5
 
 ## Can DQN play a perfect game?
 This is an interesting question. The following youtube video seems to have the answer. The video explains the design of the system state and demonstrates the AI playing a perfect game with the design:
-https://www.youtube.com/watch?v=vhiO4WsHA6c
+<table><tr><td><img src="https://img.youtube.com/vi/vhiO4WsHA6c/0.jpg" height="100"></td>
+<td valign="top">https://www.youtube.com/watch?v=vhiO4WsHA6c</td></tr>
+</table>
 
-What more inspiration? I can recommend the following documentary if you want to take a 90-minute break:
-- AlphaGo - The Movie | Full award-winning documentary (https://www.youtube.com/watch?v=WXuK6gekU1Y)
+
+What more inspiration? If you have a 90-minute break:
+<table><tr><td><img src="https://img.youtube.com/vi/WXuK6gekU1Y/0.jpg" height="100"></td>
+<td valign="top">
+    AlphaGo - The Movie | Full award-winning documentary<br>
+    See how AI developed by DeepMind beats Go champion.<br>
+    https://www.youtube.com/watch?v=WXuK6gekU1Y</td></tr>
+</table>
