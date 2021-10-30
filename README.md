@@ -9,11 +9,11 @@
 <tr>
 <td valign="top">
     <ul>
-        <li>Introduction</li>
-        <li>Installation of Pyhton and important packages</li>
-        <li>Running the program</li>
-        <li>Managing the trained data</li>
-        <li>Can AI play a perfect game?</li>
+        <li><a href=#intro>Introduction</a></li>
+        <li><a href=#install>Installation of Pyhton and important packages</a></li>
+        <li><a href=#run>Running the program</a></li>
+        <li><a href=#data>Managing the trained data</a></li>
+        <li><a href=#extra>Can AI play a perfect game?</a></li>
     </ul>
 </td>
 <td>
@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-## Introduction
+## Introduction<a name=intro></a>
 This is a training material for my undergraduate students who are relatively new to AI, but interested to learn reinforcement learning (RL). This material is prepared based on another online tutorial:
 https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a
 
@@ -31,7 +31,7 @@ The goal of this project is to develop an AI Bot to learn and play the popular g
 The snake will get a reward after eating the food. It needs to make a series of right movements to approach and eventually land on the food. Since most movements do not get a reward, only the final movement that moves the snake onto the food will, the snake must learn how all previous movements contribute to the objective of reaching the food. `Q-learning` is specifically designed to deal with **chaining** a series of right actions that can eventually arrive to the objective and get a big reward. The idea was introduced in 1989 by Chris Watkins in his PhD thesis "Learning from Delayed Rewards":
 http://www.cs.rhul.ac.uk/~chrisw/thesis.html
 
-## Install
+## Install<a name=install></a>
 Clone the project by:
 ```bash
 git clone https://github.com/cfoh/snake-game.git
@@ -44,7 +44,7 @@ pip install tensorflow
 ```
 Note that in Windows 7, tensorflow requires `Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019`. If you cannot run the program and the message is to request you to install Microsoft Visual C++ Redistributable for Visual Studio, you can resolve the problem by installing it. You can download it from: https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0
 
-## Run
+## Run<a name=run></a>
 To run the game, executes in the folder:
 ```bash
 python main.py
@@ -68,7 +68,7 @@ To change to a Bot, modify `main.py` by uncommenting the corresponding algorithm
 
 If the program encounters problems importing `Adam` and `to_categorical`, read `ai_dqn.py` for a suggestion to solve the problems.
 
-## Trained Data (for Q-Learning)
+## Trained Data (for Q-Learning)<a name=data></a>
 The trained data (i.e. Q-table) will be stored in the following file. If one already exists, it will be overwritten.
 ```
 q-table.json
@@ -103,7 +103,7 @@ When launching, the program will read the following weight file. To use the prev
 weights-learned.hdf5
 ```
 
-## Can DQN play a perfect game?
+## Can DQN play a perfect game?<a name=exra></a>
 This is an interesting question. The following youtube video seems to have the answer. The video explains the design of the system state and demonstrates the AI playing a perfect game with the design:
 <table><tr><td><img src="https://img.youtube.com/vi/vhiO4WsHA6c/0.jpg" height="100"></td>
 <td valign="top">https://www.youtube.com/watch?v=vhiO4WsHA6c</td></tr>
