@@ -103,7 +103,7 @@ When launching, the program will read the following weight file. To use the prev
 weights-learned.hdf5
 ```
 
-## Can DQN play a perfect game?<a name=exra></a>
+## Can DQN play a perfect game?<a name=extra></a>
 This is an interesting question. The following youtube video seems to have the answer. The video explains the design of the system state and demonstrates the AI playing a perfect game with the design:
 <table><tr><td><img src="https://img.youtube.com/vi/vhiO4WsHA6c/0.jpg" height="100"></td>
 <td valign="top">https://www.youtube.com/watch?v=vhiO4WsHA6c</td></tr>
