@@ -1,4 +1,7 @@
 # Deep Reinforcement Learning
+
+Source: https://github.com/maurock/snake-ga
+
 ## Project: Train AI to play Snake
 
 ## Introduction
