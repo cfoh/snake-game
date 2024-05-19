@@ -23,7 +23,7 @@ class SystemState:
         self.food_south: bool = False
         self.food_east: bool = False
         self.food_west: bool = False
-        ## mark the obstable one-ring around the snake
+        ## mark the obstacle one-ring around the snake
         self.obj_north: int = 0
         self.obj_south: int = 0
         self.obj_east: int = 0
@@ -154,7 +154,7 @@ class AI_Base(ABC):
         Returns
         -------
         bool
-            Whether keyborad is allowed to interfere with the decision made
+            Whether keyboard is allowed to interfere with the decision made
             by the algorithm.
         '''
         return False

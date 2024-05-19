@@ -22,6 +22,7 @@ from ai_base import SystemState, AI_Base
 from ai_player import AI_Player
 from ai_rulebased import AI_RuleBased
 from ai_rlq import AI_RLQ
+from ai_sarsa import AI_SARSA
 from ai_dqn import AI_DQN
 
 class MainApp:
@@ -323,15 +324,17 @@ if __name__ == "__main__" :
     ## do some hardcoding for debugging 
     #args.nodisplay = True  # <-- hardcoding no GUI mode
     args.nopause = True  # <-- hardcoding no pausing mode
-    args.speed = 10     # <-- hardcoding the speed
+    args.speed = 40     # <-- hardcoding the speed
 
     ## AI selector, pick one:
-    algo = AI_Player()    # do nothing, let human player control
-    #algo = AI_RuleBased() # rule-based algorithm
-    #algo = AI_RLQ()       # Q-learning - training mode
-    #algo = AI_RLQ(False)  # Q-learning - testing mode, no exploration
-    #algo = AI_DQN()       # DQN - training mode
-    #algo = AI_DQN(False)  # DQN - testing mode, no exploration
+    #algo = AI_Player()      # do nothing, let human player control
+    #algo = AI_RuleBased()   # rule-based algorithm
+    #algo = AI_RLQ()         # Q-learning - training mode
+    #algo = AI_RLQ(False)    # Q-learning - testing mode, no exploration
+    algo = AI_SARSA()       # SARSA - training mode
+    #algo = AI_SARSA(False)  # SARSA - testing mode, no exploration
+    #algo = AI_DQN()         # DQN - training mode
+    #algo = AI_DQN(False)    # DQN - testing mode, no exploration
 
     ## for human/algo setting adjustment
     if "Human" in algo.get_name():

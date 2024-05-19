@@ -1,5 +1,5 @@
 '''
-This module contains class implementating Reinforcement Learning 
+This module contains class implementing Reinforcement Learning 
 algorithm using Deep Q-learning Network (DQN).
 
 The following video clip explains line-by-line a generic DQN code which is 
@@ -186,7 +186,7 @@ class AI_DQN(AI_Base):
         '''Default constructor.'''
         super().__init__()
         self._name = "DQN " + ("" if training_mode else "(testing mode)")
-        #print(device_lib.list_local_devices()) # check if you have a GPU
+        print(device_lib.list_local_devices()) # check if you have a GPU
 
         ## environment parameters
         self.len_action = len(self.Action().to_array())
