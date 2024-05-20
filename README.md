@@ -58,12 +58,14 @@ python main.py --help
 To change to a Bot, modify `main.py` by uncommenting the corresponding algorithm to run:
 ```python
     ## AI selector, pick one:
-    algo = AI_Player()    # do nothing, let human player control
-    #algo = AI_RuleBased() # rule-based algorithm
-    #algo = AI_RLQ()       # Q-learning - training mode
-    #algo = AI_RLQ(False)  # Q-learning - testing mode, no exploration
-    #algo = AI_DQN()       # DQN - training mode
-    #algo = AI_DQN(False)  # DQN - testing mode, no exploration
+    algo = AI_Player()      # do nothing, let human player control
+    #algo = AI_RuleBased()   # rule-based algorithm
+    #algo = AI_RLQ()         # Q-learning - training mode
+    #algo = AI_RLQ(False)    # Q-learning - testing mode, no exploration
+    #algo = AI_SARSA()       # SARSA - training mode
+    #algo = AI_SARSA(False)  # SARSA - testing mode, no exploration
+    #algo = AI_DQN()         # DQN - training mode
+    #algo = AI_DQN(False)    # DQN - testing mode, no exploration
 ```
 
 If the program encounters problems importing `Adam` and `to_categorical`, read `ai_dqn.py` for a suggestion to solve the problems.
