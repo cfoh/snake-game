@@ -26,7 +26,7 @@
 This is a training material for my undergraduate students who are relatively new to AI, but interested to learn reinforcement learning (RL). This material is prepared based on another online tutorial:
 https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a
 
-The goal of this project is to develop an AI Bot to learn and play the popular game Snake from scratch. The implementation includes playing by human player, using a rule-based policy, Q-learning, and finally Deep Q-Network (DQN) algorithms. For Q-learning and DQN, no strategy is explicitly taught, the AI Bot has to try exploring all options to learn what to do to get a good reward.
+The goal of this project is to develop an AI Bot to learn and play the popular game Snake from scratch. The implementation includes playing by human player, using a rule-based policy, Q-learning, SARSA, and finally Deep Q-Network (DQN) algorithms. For Q-learning, SARSA and DQN, no strategy is explicitly taught, the AI Bot has to try exploring all options to learn what to do to get a good reward.
 
 The snake will get a reward after eating the food. It needs to make a series of right movements to approach and eventually land on the food. Since most movements do not get a reward, only the final movement that moves the snake onto the food will, the snake must learn how all previous movements contribute to the objective of reaching the food. `Q-learning` is specifically designed to deal with **chaining** a series of right actions that can eventually arrive to the objective and get a big reward. The idea was introduced in 1989 by Chris Watkins in his PhD thesis "Learning from Delayed Rewards":
 http://www.cs.rhul.ac.uk/~chrisw/thesis.html
